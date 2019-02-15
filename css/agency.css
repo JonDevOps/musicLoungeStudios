@@ -14,7 +14,7 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #00ff00;
 }
 
 a:hover {
@@ -22,7 +22,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #00ff00 !important;
 }
 
 h1,
@@ -71,13 +71,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #00ff00;
+  border-color: #00ff00;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #006400 !important;
+  border-color: #006400 !important;
   color: white;
 }
 
@@ -87,7 +87,7 @@ section h3.section-subheading {
 }
 
 ::selection {
-  background: #fed136;
+  background: #00ff00;
   text-shadow: none;
 }
 
@@ -110,12 +110,12 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #00ff00;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #00ff00;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -133,7 +133,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #00ff00;
 }
 
 @media (min-width: 992px) {
@@ -163,6 +163,7 @@ img::-moz-selection {
     padding: 12px 0;
   }
 }
+.morebutton{text-align: center;}
 
 header.masthead {
   text-align: center;
@@ -241,7 +242,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(0, 255, 0, 0.9);
 }
 
 #booking .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -443,7 +444,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #00ff00;
 }
 
 .timeline > li .timeline-image h4 {
@@ -614,7 +615,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #00ff00;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -682,5 +683,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #00ff00;
 }
